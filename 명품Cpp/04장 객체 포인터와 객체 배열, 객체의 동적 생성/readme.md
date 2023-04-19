@@ -1,5 +1,5 @@
 # 4장 객체 포인터와 객체 배열, 객체의 동적 생성
-> **블로그 주소** : https://blog.naver.com/hh-383/223069314385
+> **블로그 주소** : https://blog.naver.com/hh-383/223079578463
 > 
 > **출판사 주소** : [생능출판사](https://www.booksr.co.kr/product/%eb%aa%85%ed%92%88-c-programming%ea%b0%9c%ec%a0%95%ed%8c%90/)
 
