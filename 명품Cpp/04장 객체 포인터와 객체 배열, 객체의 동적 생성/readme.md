@@ -19,12 +19,12 @@
 
 ---
 
-## 이론문제 솔루션(출판사제공)
+## 🖼️ 4장 이론문제 솔루션(출판사제공)
 | ![sol1](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(1).jpg) | ![sol2](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(2).jpg) | ![sol3](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(3).jpg) |
 | --  | -- | -- |
 
 
-## 🖼️ 3장 개인풀이 (5).jpg
+## 🖼️ 4장 개인풀이 (5).jpg
 >체크타임부터 이론문제까지 내가 풀고 채점한 노트
 
 | ![1](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(1).jpg) | ![2](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(2).jpg) | ![3](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(3).jpg) |
@@ -35,17 +35,18 @@
 
 ## 실습문제 리뷰
 
-> OpenChallenge
+> **OpenChallenge**
 
     `어려웠던 것`  **하나의 클래스에서 다른 클래스의 객체를 사용하는 개념**
 
-    프로그램 구조에서, WordGame 클래스는 Player 객체 3개를 배열로 사용한다. 이 때 Player 객체로 클래스의 멤버들을 사용하는데 public, private 개념이 어떻게 적용되는지 모르겠었다.
+    프로그램 구조에서, WordGame 클래스는 Player 객체 3개를 배열로 사용한다.
+    이 때 Player 객체로 클래스의 멤버들을 사용하는데 public, private 개념이 어떻게 적용되는지 모르겠었다.
 
     일단은 기본타입들 사용하는 것처럼 단순하게 접근하는 것이 _본능적으로_　좋을 것 같아서 그런 생각으로 코드를 작성했다.
 
     아마 이번 문제는 `상속`에 대한 떡밥이 아닐까 하는 생각도 든다.
     
-> 11. 
+> **11.**
     `어려웠던 것`  **클래스의 순서** 를 지키지 않아서 헤멤
     
     A클래스에서 B클래스를 사용한다면,
@@ -56,7 +57,7 @@
 
     그러니까, 왜 문제를 CVM 다음 Container로 써준걸까...
 
-> 14.
+> **14.**
     `어려웠던 것` **Enter('\n') 입력받기**
     코드순서가 이름입력받기 → 엔터입력받기였다.
     이름을 `cin`으로 받았더니, 개행문자가 버퍼에 남아서
