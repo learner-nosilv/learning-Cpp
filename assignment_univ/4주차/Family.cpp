@@ -42,3 +42,28 @@ void Family::show() {
 	}											// People클래스의 멤버함수인 getName()을 호출하여 People클래스의 멤버변수인 name값을 콘솔출력
 	std::cout << std::endl;						// 개행
 }
+
+
+/*
+#include "Family.h"									// Family 클래스 선언 헤더파일 include
+#include <iostream>									// 입출력을 위한 iostream include
+#include <string>									// string 타입 사용
+
+Family::Family(string name, int size) {				// 가족 이름과 배열 사이즈를 매개변수로 받아 가족 이름은 멤버변수에 저장하고, size만큼의 Person형 객체 배열을 동적 생성하는 생성자
+	famName = name;									// 가족이름 저장
+	this->size = size;								// size 저장
+	p = new Person[size];							// size만큼의 요소를 갖는 Person 형 객체 배열을 동적 할당해 주소를 p에 저장
+}
+void Family::setName(int index, string name) {		// p의 요소들의 name 값을 변경하는 함수
+	p[index].set(name);
+}
+void Family::show() {								// 가족구성원 출력 맴버함수
+	cout << famName << "가족은 다음과 같이 " << size << "명입니다" << endl;
+	for (int i = 0; i < size; i++)					// 배열에 저장된 이름 출력
+		cout << p[i].getName() << '\t';
+	cout << endl;
+}
+Family::~Family() {									// 객체가 삭제될 때 동적할당된 p의 메모리 해제
+	delete[] p;
+}
+*/

@@ -16,7 +16,7 @@ double add(double a, double b) {
 	return a + b;
 }
 
-/*
+/* [solution]
     In this program, the main() function prompts the user to enter two real numbers, 
     reads them from the keyboard using the scanf() function, and stores them in variables num1 and num2.
     It then calls the add() function, passing num1 and num2 as arguments, and 

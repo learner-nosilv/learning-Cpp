@@ -96,3 +96,45 @@ int main() {
 
 	return 0;
 }
+
+
+/*
+#include "Family.h"						// 헤더파일 include
+#include "Person.h"
+
+#include <iostream>						// 입출력을 위한 iostream 헤더파일 include
+#include <string>						// string 헤더파일 include
+using namespace std;
+
+int main() {
+	Person p[3];						// 객체 배열 생성
+	cout << "이름과 전화 번호를 입력해 주세요" << endl;
+	for (int i = 0; i < 3; i++) {		// 이름과 전화 번호를 입력
+		string n = ""; string t = "";
+		cout << "사람 " << i + 1 << ">> ";
+		cin >> n >> t;
+		p[i].set(n, t);					// Person 클래스 멤버 함수를 사용해 name과 tel 값 변경
+	}
+	cout << "모든 사람의 이름은 ";			// 이름 출력
+	for (int i = 0; i < 3; i++) {
+		cout << p[i].getName() << ' ';	// getName 맴버함수는 name 을 리턴함
+	}
+	cout << endl << "전화번호 검색합니다. 이름을 입력하세요>> ";
+	string sn = ""; int count = 0;			// 검색할때 쓸 string 변수 sn과 오류검출을 위한 변수 count 생성 및 초기화
+	cin >> sn;
+	for (int i = 0; i < 3; i++) {
+		if (sn == p[i].getName()) {			// 검색
+			cout << "전화 번호는 " << p[i].getTel() << endl << endl << endl;
+			count++;						// count == 0 이면 검색결과 없음
+		}
+	}
+	if (count == 0)							// count == 0 이면 검색결과 없음
+		cout << "이름을 잘 못 입력했거나 없는 이름입니다." << endl;
+
+	Family* simpson = new Family("Simpson", 3); // 생성자는 p가 Person 오브젝트 3개를 요소로 가지는 배열로 초기화하고 new 함수를 통해 그만큼의 메모리를 동적할당 해 simpson 포인터에 주소값 리턴
+	simpson->setName(0, "Mr. Simpson");			// index 0 번째 요소에 저장
+	simpson->setName(1, "Mrs. Simpson");		// index 1 번째 요소에 저장
+	simpson->setName(2, "Bart Simpson");		// index 2 번째 요소에 저장
+	simpson->show();							// 가족 구성원 출력
+	delete simpson;								// 동적으로 할당된 메모리 해제
+	*/

@@ -30,3 +30,29 @@ void Person::set(std::string name, std::string tel) {
 	this->name = name;	// 객체를 가리키는 포인터변수 this 사용
 	this->tel = tel;	// 파라미터 tel의 값을 멤버변수 tel에 할당
 }
+
+/* [학교 솔루션]
+* 나와 솔루션의 차이: 나는 인라인을 사용하였다 .....ㅠㅠㅠ 
+#include "Person.h"									// Person 클래스 선언 헤더파일 include
+
+#include <string>									// string 헤더파일 include
+using namespace std;
+
+Person::Person() : Person("", "") { }				// name 과 tel을 ""로 초기화하는 기본 생성자
+Person::Person(string name, string tel) {			// name 과 tel에 매개변수 값을 대입하는 생성자
+	this->name = name;								// 매개변수와 멤버 변수 값의 이름이 같으므로 this 포인터 사용
+	this->tel = tel;
+}
+string Person::getName() {							// 멤버 변수 name을 리턴하는 멤버 함수
+	return name;
+}
+string Person::getTel() {							// 멤버 변수 tel을 리턴하는 멤버 함수
+	return tel;
+}
+void Person::set(string name, string tel) {			// 멤버 변수에 접근해 값을 변경하는 멤버 함수
+	this->name = name;								// 매개변수와 멤버변수의 이름이 같으므로 this 포인터 사용
+	this->tel = tel;
+}
+void Person::set(string name) {						// 멤버 변수 name에 접근해 값을 변경하는 멤버 함수
+	this->name = name;								// 매개변수와 멤버변수의 이름이 같으므로 this 포인터 사용
+*/

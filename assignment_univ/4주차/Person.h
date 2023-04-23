@@ -38,3 +38,25 @@ public:
 };
 
 #endif
+
+
+/* [학교 솔루션]
+#ifndef PERSON_H					// 중복 include 방지
+#define PERSON_H
+#include <string>					// string 해더파일 include
+using namespace std;
+
+class Person {						// Person 클래스 선언부
+	string name;					// 맴버변수 : 이름
+	string tel;						// 맴버변수 : 전화번호
+public:
+	Person();							// 생성자
+	Person(string name, string tel);	// 생성자
+	string getName();					// 맴버변수 name 리턴
+	string getTel();					// 맴버변수 tel 리턴
+	void set(string name, string tel);	// 멤버변수에 접근해 name과 tel 값을 모두 변경하는 함수
+	void set(string name);				// 멤버변수에 접근해 name 값 만을 변경하는 함수 (함수 오버로딩을 이용함)
+};
+
+#endif
+*/

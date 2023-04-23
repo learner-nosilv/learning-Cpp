@@ -38,3 +38,25 @@ public:
 };
 
 #endif
+
+/*
+* #ifndef FAMILY_H							// 중복 include 방지
+#define FAMILY_H
+
+#include "Person.h"							// Person 해더파일 include
+#include <string>							// string 해더파일 include 
+using namespace std;
+
+class Family {								// Family 클래스 선언부
+	Person* p;								// Person형 객체배열을 생성할때 받을 포인터
+	int size;								// 배열의 사이즈
+	string famName;							// 가족 이름
+public:
+	Family(string name, int size);			// 생성자
+	void setName(int index, string fn);		// 가족 구성원 이름 저장
+	void show();							// 구성원 출력
+	~Family();								// 소멸자
+};
+
+#endif
+*/
