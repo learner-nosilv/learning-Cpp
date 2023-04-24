@@ -108,81 +108,57 @@ bool Morse::morse2Text(string morse, string& text) {
 	int start_idx = 0;				// 한 검사단위의 모스부호 인덱스 시작
 	int end_idx;					// 한 검사단위의 모스부호 인덱스 끝
 	string word;					// 한 검사단위의 모스부호
-	bool state = true;				// 모스부호와 대조되는 문자가 발견되었는지 여부
 
 	// 모스부호 검사 시작
-	if (morse[(size - 1)] != ' ')	// 비정상적인 상태 1) 검사단위가 없는 모스부호 (정상적이라면, 모스부호의 끝은 무조건 공백이어야함)
+	if (morse[(size - 1)] != ' ')	// 비정상적 모스부호 (정상적이라면, 모스부호의 끝은 무조건 공백이어야함)
 		return false;
 
-	while (start_idx < size && state == true) {	// 루프유지조건 : 검사중 or 모스부호와 대조되는 문자가 존재하는 경우
-		end_idx = morse.find(' ', start_idx);	// 모스부호를 검사하는 끝 index 모든 모스부호는 공백단위로 문자가 됨
-		if (morse.substr(start_idx, 2) == "  ") {	// 치환할 수 있는 경우 2) 2공백모스부호 -> 1공백문자 (공백이 기준인 검사단위에 잡히지않는 공백이 2개인 모스부호)
-			start_idx += 2;
-			text += ' ';
+	while (start_idx < size) {		// 검사할 모스부호단위가 없어질 때까지 반복
+		if (start_idx < size - 1 && morse.substr(start_idx, 2) == "  ") {	// [모스] 공백2개인 경우
+			text += ' ';							// [일반] 공백으로 변환
+			start_idx += 2;							// 다음 검사시작점 설정
+			continue;								// 다음 모스부호단위 검사
 		}
-		else {													// 한 검사단위의 모스부호가 존재하는 경우 ( 치환가능한 문자가 있거나 없는 경우 둘 다 존재 )
-			word = morse.substr(start_idx, (end_idx - start_idx + 1));
-			for (int i = 0; i < 37; i++) {		// word를 42개의 모스부호와 대조하기
-				state = false;					// 일치하는 것이 없으면 false로 for문 탈출함
-				if (i < 26) {					// 1) alphabet 모스부호와 대조
-					if (word == alphabet[i]) {
-						text += i + 'a';
-						start_idx = end_idx + 1;
-						state = true;			// 없어도 됨
-						break;
-					}
-				}
-				else if (i < 36) {				// 2) digit 모스부호와 대조
-					if (word == digit[i - 26]) {
-						text += i - 26 + '0';
-						start_idx = end_idx + 1;
-						state = true;
-						break;
-					}
-				}
-				else {							// 3) 특수문자와 대조
-					if (word == slash) {
-						text += '/';
-						start_idx = end_idx + 1;
-						state = true;
-						break;
-					}
-					else if (word == question) {
-						text += '?';
-						start_idx = end_idx + 1;
-						state = true;
-						break;
-					}
-					else if (word == comma) {
-						text += ',';
-						start_idx = end_idx + 1;
-						state = true;
-						break;
-					}
-					else if (word == period) {
-						text += '.';
-						start_idx = end_idx + 1;
-						state = true;
-						break;
-					}
-					else if (word == plus) {
-						text += '+';
-						start_idx = end_idx + 1;
-						state = true;
-						break;
-					}
-					else if (word == equal) {
-						text += '=';
-						start_idx = end_idx + 1;
-						state = true;
-						break;
-					}
-				}
-			} // for문 끝 : state true or false로 끝
-		} // if 와 else 의 끝 : state true or false로 끝
-	} // while의 끝 : 1모스단위씩 true 상태로 전부 검사완료 or false 상태로 중단
-	return state;
+		end_idx = morse.find(' ', start_idx);		// 모스부호를 검사하는 끝 index
+		word = morse.substr(start_idx, (end_idx - start_idx + 1));	// 모스부호 검사단위
+
+		int state = false;							// 발견되지 않은 경우
+		// 1. alphabet 모스부호와 대조
+		for (int i = 0; i < 26; i++) {
+			if (word == alphabet[i]) {
+				text += i + 'a';
+				start_idx = end_idx + 1;
+				state = true;
+				break;
+			}
+		}
+		if (state == true) { continue; }			// alphabet 에서 대조완료된 경우 다음 모스부호단위 검사
+
+		// 2. digit 모스부호와 대조
+		for (int i = 0; i < 10; i++) {
+			if (word == digit[i]) {
+				text += i + '0';
+				start_idx = end_idx + 1;
+				state = true;
+				break;
+			}
+		}
+		if (state == true) { continue; }			// digit 에서 대조완료된 경우 다음 모스부호단위 검사
+
+		// 3. 특수문자와 대조
+		if (word == slash) { text += '/'; }
+		else if (word == question) { text += '?'; }
+		else if (word == comma) { text += ','; }
+		else if (word == period) { text += '.'; }
+		else if (word == plus) { text += '+'; }
+		else if (word == equal) { text += '='; }
+		else { return false; }						// 대조불가 false 반환
+		start_idx = end_idx + 1;					// 대조된 경우 
+		continue;									// 다음 모스부호단위 검사
+	}
+	return true;					// 모든 검사를 문제없이 마친 경우 true 반환 
 }
+// [55 Line]
 
 int main() {
 	Morse test;	// Morse클래스의 객체test 생성
