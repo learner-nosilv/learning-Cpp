@@ -1,77 +1,84 @@
-# 4장 객체 포인터와 객체 배열, 객체의 동적 생성
-> **블로그 주소** : https://blog.naver.com/hh-383/223069314385
+# 5장 함수와 참조, 복사 생성자
+> **블로그 주소** : https://blog.naver.com/hh-383/
 > 
 > **출판사 주소** : [생능출판사](https://www.booksr.co.kr/product/%eb%aa%85%ed%92%88-c-programming%ea%b0%9c%ec%a0%95%ed%8c%90/)
 
 
 ## 연습문제 정보
-* **Open Challenge** : p.204
+* **Open Challenge** : p.265
 * **이론 문제** : 총 19문제
 * **이론 문제 답안 제공** : 홀수번째 문제
 * **실습 문제** : 총 14문제
-* **실습 문제 답안 제공** : 1, 6, 10, 13번
+* **실습 문제 답안 제공** : 2, 4, 7, 9, 11번
 
 
 ## 파일 구성
-* 📁 `4장 예제` 　∋ 📄예제코드와 그림자료코드 (출판사 제공)
-* 📁 `4장 이론문제` 　∋ 🖼️홀수번호 솔루션(출판사제공), 내 풀이
-* 📁 `4장 실습문제` 　∋ 📄일부문제 솔루션(출판사제공), 내 풀이코드
+* 📁 `5장 예제` 　∋ 📄예제코드와 그림자료코드 (출판사 제공)
+* 📁 `5장 이론문제` 　∋ 🖼️홀수번호 솔루션(출판사제공), 🖼️내 풀이
+* 📁 `5장 실습문제` 　∋ 📄일부문제 솔루션(출판사제공), 📄내 풀이코드
 
 ---
 
-## 🖼️ 4장 이론문제 솔루션(출판사제공)
-| ![sol1](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(1).jpg) | ![sol2](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(2).jpg) | ![sol3](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(3).jpg) |
+## 🖼️ 5장 이론문제 솔루션(출판사제공)
+| ![sol1](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/05%EC%9E%A5%20%ED%95%A8%EC%88%98%EC%99%80%20%EC%B0%B8%EC%A1%B0%2C%20%EB%B3%B5%EC%82%AC%20%EC%83%9D%EC%84%B1%EC%9E%90/5%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/5%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(1).jpg) | ![sol2](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/05%EC%9E%A5%20%ED%95%A8%EC%88%98%EC%99%80%20%EC%B0%B8%EC%A1%B0%2C%20%EB%B3%B5%EC%82%AC%20%EC%83%9D%EC%84%B1%EC%9E%90/5%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/5%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(2).jpg) |  |
 | --  | -- | -- |
 
 
-## 🖼️ 4장 개인풀이 (5).jpg
+## 🖼️ 5장 개인풀이 (5).jpg
 >체크타임부터 이론문제까지 내가 풀고 채점한 노트
 
-| ![1](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(1).jpg) | ![2](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(2).jpg) | ![3](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(3).jpg) |
+| ![1](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/05%EC%9E%A5%20%ED%95%A8%EC%88%98%EC%99%80%20%EC%B0%B8%EC%A1%B0%2C%20%EB%B3%B5%EC%82%AC%20%EC%83%9D%EC%84%B1%EC%9E%90/5%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/5%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(1).jpg) | ![2](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/05%EC%9E%A5%20%ED%95%A8%EC%88%98%EC%99%80%20%EC%B0%B8%EC%A1%B0%2C%20%EB%B3%B5%EC%82%AC%20%EC%83%9D%EC%84%B1%EC%9E%90/5%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/5%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(2).jpg) | ![3](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/05%EC%9E%A5%20%ED%95%A8%EC%88%98%EC%99%80%20%EC%B0%B8%EC%A1%B0%2C%20%EB%B3%B5%EC%82%AC%20%EC%83%9D%EC%84%B1%EC%9E%90/5%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/5%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(3).jpg) |
 | -- | -- | -- |
-| ![4](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(4).jpg) | ![5](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(5).jpg) |  |
 
 ---
 
 ## 실습문제 리뷰
 
 > **OpenChallenge**
-    `어려웠던 것`  **하나의 클래스에서 다른 클래스의 객체를 사용하는 개념**
+    `어려웠던 것 1`  **반복문과 조건문의 중첩으로 파악하기가 어려워짐**
+    `어려웠던 것 2`  **Hint가 제시한 배열구조가 더 어렵게 했다.**
 
-    프로그램 구조에서, WordGame 클래스는 Player 객체 3개를 배열로 사용한다.
-    이 때 Player 객체로 클래스의 멤버들을 사용하는데 public, private 개념이 어떻게 적용되는지 모르겠었다.
+   쉬울 것 같아서 달려들었는데, while for if 의 향연으로 들여쓰기가 5번이 나왔다.
+   그랬더니, 어디서 break 하고 continue 하면 되는건지
+   이 block를 나오면 어떤 상태가 되는건지 혼란이 오면서 뇌에 과부하가 오기시작했다.
+   이 문제를 푸는데에 3시간을 잡아먹었다.
+   6장까지 시험공부해야하는데 얘에 몰두하다가 6장을 못 훑어보았다.
 
-    일단은 기본타입들 사용하는 것처럼 단순하게 접근하는 것이 _본능적으로_　좋을 것 같아서 그런 생각으로 코드를 작성했다.
+   그러다 시험끝난 주말에 노트에 적어가며 구상한 후,
+   코드를 작성하니까 30분안에 더 깔끔멀끔하게 작성할 수 있었다. 띠용
+   `복잡하다 싶으면 구상을 먼저 하자.`
 
-    아마 이번 문제는 `상속`에 대한 떡밥이 아닐까 하는 생각도 든다.
-    
 > **11.**
-    `어려웠던 것`  **클래스의 순서** 를 지키지 않아서 헤멤
-    
-    A클래스에서 B클래스를 사용한다면,
-    A클래스를 선언하기 전에 B클래스를 선언해야 `undefined -` 불상사를 막을 수 있다.
+    `어려웠던 것`  **리터럴 상수나 문자열이 인자일 때 파라미터 작성법**
+   포인터나 참조매개변수는 직관적으로 이해할 수 있었는데,
+   배열을 `int f ( arr[], int size )` 이렇게 받아와서 arr을 사용하는 건 아직 어색하다.
+   문자열을 `int f ( char* title )` 로 가져와서 title을 활용하는 것도 마찬가지이다.
 
-    여기서, 함수 프로토타입 선언하듯이
-    `class Container;` 이런 것도 안 됨! 당연한 말이겠지만.......
+   그래서, 아래와 같이 작성할 수 있는 코드도
+```cpp:solution.cpp
+void Book::set(const char* title, int price) {
+	... 
+	int len = strlen(title);
+	...
+	strcpy(this->title, title);
+	...
+}
+```
+   장황하게 작성했다ㅜㅜ
+```cpp:mine.cpp
+void Book::set(char* title, int price) {
+	...
+	int len;
+	for (len = 0; *(title + len != '\0'; len++);	// int len = strlen(title);
+	...
+	for (int i = 0; i <= len; i++) {			// strcpy(this->title, title);
+		*((this->title) + i) = *(title + i);
+	}
+	...
+}
+```
 
-    그러니까, 왜 문제를 CVM 다음 Container로 써준걸까...
-
-> **14.**
-    `어려웠던 것` **Enter('\n') 입력받기**
-    
-    코드순서가 이름입력받기 → 엔터입력받기였다.
-    이름을 `cin`으로 받았더니, 개행문자가 버퍼에 남아서
-    엔터입력받는 구간에서 사용자에게 입력받지 않고도 자동으로 프로그램이 진행되었다.
-    
-    이를 해결한 것은 이름을 `getline`으로 입력받은 것이다.
-    이렇게 하면 구분자로 사용된 개행문자도 버퍼에서 빠졌다.
-    (구분자는 입력 값엔 안 들어가면서 버퍼에서는 사용됨)
-
-    엔터를 입력받아서 그 값을 저장하는 것도 어려웠다.
-    `cin`도 안되고,
-    `getline`도 안되고,
-    그래서
-    `int enter = getchar()`을 사용하였다.
-    getchar() 매커니즘: 입력값을 버퍼에 넣고 한 문자만 리턴, 이 때 '\n'도 리턴한다.
-        (예1) a 엔터 하면, a 리턴, 엔터는 버퍼에 남아있다가 나중에 문제일으킴
-        (예2) 엔터 하면, 엔터 리턴 ← 내가 선택
+   **그리고, 리터럴 상수는 char* 로 받을 수 없고, const char* 로 받아주아야 했다.**
+   교재가 낚시를 해서 오류의 늪에 갖혔어야 했다.
+   프로토타입은 `set(char*, int)` 호출문은 `set("명품자바", 12000)` !!
+   덕분에 깨달았지만
