@@ -20,9 +20,9 @@
 ---
 
 ## 🖼️ 6장 이론문제 솔루션(출판사제공)
-| ![sol1](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/06%EC%9E%A5%20%ED%95%A8%EC%88%98%20%EC%A4%91%EB%B3%B5%EA%B3%BC%20static%20%EB%A9%A4%EB%B2%84/6%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/6%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5.jpg) |  |  |
+| <img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/06%EC%9E%A5%20%ED%95%A8%EC%88%98%20%EC%A4%91%EB%B3%B5%EA%B3%BC%20static%20%EB%A9%A4%EB%B2%84/6%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/6%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5.jpg"  width="40%" height="40%"> |  |  |
 | --  | -- | -- |
-<img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/06%EC%9E%A5%20%ED%95%A8%EC%88%98%20%EC%A4%91%EB%B3%B5%EA%B3%BC%20static%20%EB%A9%A4%EB%B2%84/6%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/6%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5.jpg"  width="50%" height="50%">
+
 
 
 ## 🖼️ 6장 개인풀이 (2).jpg
