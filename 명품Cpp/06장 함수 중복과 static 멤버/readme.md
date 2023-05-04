@@ -1,5 +1,5 @@
 # 6장 함수 중복과 static 멤버
-> **블로그 주소** : https://blog.naver.com/hh-383/
+> **블로그 주소** : https://blog.naver.com/hh-383/223093239434
 > 
 > **출판사 주소** : [생능출판사](https://www.booksr.co.kr/product/%eb%aa%85%ed%92%88-c-programming%ea%b0%9c%ec%a0%95%ed%8c%90/)
 
@@ -36,53 +36,66 @@
 ## 실습문제 리뷰
 
 > **OpenChallenge**  
-> `어려웠던 것 1` **반복문과 조건문의 중첩으로 파악하기가 어려워짐**  
-> `어려웠던 것 2` **Hint가 제시한 배열구조가 더 어렵게 했다.**
+> `어려웠던 것 1` **static 자체가 좀 막연-**  
+> `어려웠던 것 2` **객체배열을 선언&초기화하는 방법**  
    
-   쉬울 것 같아서 달려들었는데, while for if 의 향연으로 들여쓰기가 5번이 나왔다.  
-   그랬더니, 어디서 break 하고 continue 하면 되는건지  
-   이 block를 나오면 어떤 상태가 되는건지 혼란이 오면서 뇌에 과부하가 오기시작했다.  
-   이 문제를 푸는데에 3시간을 잡아먹었다.     
-   6장까지 시험공부해야하는데 얘에 몰두하다가 6장을 못 훑어보았다.
-
-
-   그러다 시험끝난 주말에 노트에 적어가며 구상한 후,  
-   코드를 작성하니까 30분안에 더 깔끔멀끔하게 작성할 수 있었다. 띠용  
-   `복잡하다 싶으면 구상을 먼저 하자.`  
-
-
-> **11.** `어려웠던 것`  **문자열리터럴이 인자일 때 파라미터 작성법**  
-
-   포인터나 참조매개변수는 직관적으로 이해할 수 있었는데,  
-   배열을 `int f ( arr[], int size )` 이렇게 받아와서 arr을 사용하는 건 아직 어색하다.  
-   문자열을 `int f ( char* title )` 로 가져와서 title을 활용하는 것도 마찬가지이다.  
-   그래서, solution처럼 간단히 작성할 수 있는 코드도 장황하게 작성했다....  
-
-```cpp:solution.cpp
-void Book::set(const char* title, int price) {
-	... 
-	int len = strlen(title);
-	...
-	strcpy(this->title, title);
-	...
-}
-```
+   중간고사 마지막 단원이다보니, 이론공부를 할 때 날림공부를 했다.  
+   (날림이라 함은, 예제를 읽고만 넘어갔단 말)  
+   그랬더니 금방금방 까먹고, 막연한 느낌이 없지않아있다.  
   
-```cpp:mine.cpp
-void Book::set(char* title, int price) {
-	...
-	int len;
-	for (len = 0; *(title + len != '\0'; len++);	// int len = strlen(title);
-	...
-	for (int i = 0; i <= len; i++) {			// strcpy(this->title, title);
-		*((this->title) + i) = *(title + i);
-	}
-	...
+   변수는 *선언* & *할당(초기화)*  
+   함수는 *원형선언* & *정의*  
+   클래스는 *선언부* & *구현부*  
+   static 변수는 *클래스 내 선언* → *전역범위 내 선언&할당(초기화)*  
+   (or) static 변수는 *클래스 내 선언* → *전역범위 내 정의*  
+   라는 새로운 개념이어서 좀 헷갈렸다.  
+    
+   그리고, 또 어려웠던 것은 **객체배열의 선언동시초기화**이다.  
+   `클래스명 배열명[갯수] = {생성자(...), 생성자(...), 생성자(...), ... }` 로  
+   선언동시초기화한다는 것을 오늘 처음 알았다ㅋㅋㅠ  
+  
+  
+> **1.** `몰랐던 개념`  **포인터의 디폴트 매개변수설정**  
+  
+   포인터의 디폴트 매개변수는 `NULL`이 아닌 `nullptr` 이라는 걸 배웠다.  
+  
+    
+> **4.** `몰랐던 개념`  **default매개변수는 선언, 정의 둘 중 한 곳에만**  
+  
+```
+class MyVector {
+	int* mem;
+	int size;
+public:
+	MyVector(int n = 100, int val = 0);
+	~MyVector() { delete[] mem; }
+	void showMem();
+};
+
+MyVector::MyVector(int n = 100, int val = 0) {
+	this->size = n;
+	mem = new int[size];
+	for (int i = 0; i < size; i++)
+		mem[i] = val;
 }
 ```
-  ﻿
-   아! 그리고 교재 오류덕분에,
-   **리터럴 상수는 파라미터형을 `char*` 로 하면 받을 수 없고,
-  `const char*` 으로 해야 인자로 받을 수 있다**는 것을 알았다.
+   이렇게 작성하면, `C2572 redefinition of default argument:parameter` 에러가 뜬다.  
+  
+```
+class MyVector {
+	int* mem;
+	int size;
+public:
+	MyVector(int n = 100, int val = 0);	// (int n, int val)
+	~MyVector() { delete[] mem; }
+	void showMem();
+};
 
-   프로토타입은 `set(char*, int)` 호출문은 `set("명품자바", 12000)` !!  
+MyVector::MyVector(int n, int val) {	// (int n = 100, int val = 0)
+	this->size = n;
+	mem = new int[size];
+	for (int i = 0; i < size; i++)
+		mem[i] = val;
+}
+```
+   이렇게 선언부과 구현부 둘 중에 한 곳에만 작성하니 괜찮았다.
