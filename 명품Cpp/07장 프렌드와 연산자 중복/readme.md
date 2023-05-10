@@ -20,16 +20,17 @@
 ---
 
 ## 🖼️ 7장 이론문제 솔루션(출판사제공)
-| [1](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/07%EC%9E%A5%20%ED%94%84%EB%A0%8C%EB%93%9C%EC%99%80%20%EC%97%B0%EC%82%B0%EC%9E%90%20%EC%A4%91%EB%B3%B5/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(1).jpg) | [2](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/07%EC%9E%A5%20%ED%94%84%EB%A0%8C%EB%93%9C%EC%99%80%20%EC%97%B0%EC%82%B0%EC%9E%90%20%EC%A4%91%EB%B3%B5/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(2).jpg) | [3](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/07%EC%9E%A5%20%ED%94%84%EB%A0%8C%EB%93%9C%EC%99%80%20%EC%97%B0%EC%82%B0%EC%9E%90%20%EC%A4%91%EB%B3%B5/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(3).jpg) |
+| ![1](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/07%EC%9E%A5%20%ED%94%84%EB%A0%8C%EB%93%9C%EC%99%80%20%EC%97%B0%EC%82%B0%EC%9E%90%20%EC%A4%91%EB%B3%B5/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(1).jpg) | ![2](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/07%EC%9E%A5%20%ED%94%84%EB%A0%8C%EB%93%9C%EC%99%80%20%EC%97%B0%EC%82%B0%EC%9E%90%20%EC%A4%91%EB%B3%B5/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(2).jpg) | ![3](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/07%EC%9E%A5%20%ED%94%84%EB%A0%8C%EB%93%9C%EC%99%80%20%EC%97%B0%EC%82%B0%EC%9E%90%20%EC%A4%91%EB%B3%B5/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(3).jpg) |
 | --  | -- | -- |
 
 
 
-## 🖼️ 7장 개인풀이 (1).jpg
+## 🖼️ 7장 개인풀이 (4).jpg
 >체크타임부터 이론문제까지 내가 풀고 채점한 노트
 
-| <img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/06%EC%9E%A5%20%ED%95%A8%EC%88%98%20%EC%A4%91%EB%B3%B5%EA%B3%BC%20static%20%EB%A9%A4%EB%B2%84/6%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/6%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(1).jpg"  width="80%" height="80%"> | <img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/06%EC%9E%A5%20%ED%95%A8%EC%88%98%20%EC%A4%91%EB%B3%B5%EA%B3%BC%20static%20%EB%A9%A4%EB%B2%84/6%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/6%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(2).jpg"  width="85%" height="85%"> |  |
-| -- | -- | -- |
+| ![1](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/07%EC%9E%A5%20%ED%94%84%EB%A0%8C%EB%93%9C%EC%99%80%20%EC%97%B0%EC%82%B0%EC%9E%90%20%EC%A4%91%EB%B3%B5/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/7%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(1).jpg) | ![2](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/07%EC%9E%A5%20%ED%94%84%EB%A0%8C%EB%93%9C%EC%99%80%20%EC%97%B0%EC%82%B0%EC%9E%90%20%EC%A4%91%EB%B3%B5/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/7%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(2).jpg) | ![3](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/07%EC%9E%A5%20%ED%94%84%EB%A0%8C%EB%93%9C%EC%99%80%20%EC%97%B0%EC%82%B0%EC%9E%90%20%EC%A4%91%EB%B3%B5/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/7%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(3).jpg) |
+| ![4](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/07%EC%9E%A5%20%ED%94%84%EB%A0%8C%EB%93%9C%EC%99%80%20%EC%97%B0%EC%82%B0%EC%9E%90%20%EC%A4%91%EB%B3%B5/7%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/7%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(4).jpg) | -- | -- |
+
 
 ---
 
