@@ -1,5 +1,5 @@
 # 7장 프렌드와 연산자 중복
-> **블로그 주소** : https://blog.naver.com/hh-383/
+> **블로그 주소** : https://blog.naver.com/hh-383/223098614444
 > 
 > **출판사 주소** : [생능출판사](https://www.booksr.co.kr/product/%eb%aa%85%ed%92%88-c-programming%ea%b0%9c%ec%a0%95%ed%8c%90/)
 
