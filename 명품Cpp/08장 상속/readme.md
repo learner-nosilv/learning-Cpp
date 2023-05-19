@@ -6,10 +6,10 @@
 
 ## 연습문제 정보
 * **Open Challenge** : p.411
-* **이론 문제** : 총 19문제
+* **이론 문제** : 총 16문제
 * **이론 문제 답안 제공** : 홀수번째 문제
-* **실습 문제** : 총 14문제
-* **실습 문제 답안 제공** : 1, 6, 10, 13번
+* **실습 문제** : 총 9문제
+* **실습 문제 답안 제공** : 1, 3, 5, 7번
 
 
 ## 파일 구성
@@ -19,17 +19,16 @@
 
 ---
 
-## 🖼️ 4장 이론문제 솔루션(출판사제공)
-| ![sol1](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(1).jpg) | ![sol2](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(2).jpg) | ![sol3](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5%20(3).jpg) |
+## 🖼️ 8장 이론문제 솔루션(출판사제공)
+| ![sol1](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/08%EC%9E%A5%20%EC%83%81%EC%86%8D/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5.jpg) |  |  |
 | --  | -- | -- |
 
 
-## 🖼️ 4장 개인풀이 (5).jpg
+## 🖼️ 8장 개인풀이 (2).jpg
 >체크타임부터 이론문제까지 내가 풀고 채점한 노트
 
-| ![1](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(1).jpg) | ![2](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(2).jpg) | ![3](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(3).jpg) |
+| ![1](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/08%EC%9E%A5%20%EC%83%81%EC%86%8D/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/8%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(1).jpg) | ![2](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/08%EC%9E%A5%20%EC%83%81%EC%86%8D/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/8%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(2).jpg) |  |
 | -- | -- | -- |
-| ![4](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(4).jpg) | ![5](https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/04%EC%9E%A5%20%EA%B0%9D%EC%B2%B4%20%ED%8F%AC%EC%9D%B8%ED%84%B0%EC%99%80%20%EA%B0%9D%EC%B2%B4%20%EB%B0%B0%EC%97%B4%2C%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%8F%99%EC%A0%81%20%EC%83%9D%EC%84%B1/4%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/4%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(5).jpg) |  |
 
 ---
 
@@ -54,28 +53,13 @@
   
   
 > **8.**
-    `어려웠던 것1`  클래스가 많은 상황에서 **접근범위** 를 신경쓰는 일  
-    `어려웠던 것2`  **파일분리**는 항상 어렵네 왜 그럴까  
-    
-    Public VS Private !  
-   #ifndef, #define, #endif  
+    `어려웠던 것1`  내 마음대로가 아닌 책의 **요구사항대로 작성하기**  
+   그리고, 내가 임의로 작성한 코드(1)와 책의 요구사항대로 작성한 코드(2) 중  
+   어떤 코드가 더 효율적인지 모르겠다.    
+    `어려웠던 것2`  **파일분리**는 항상 어렵다 + **접근범위** 를 신경쓰는 일  
   
-> **14.**
-    `어려웠던 것` **Enter('\n') 입력받기**
-    
-    코드순서가 이름입력받기 → 엔터입력받기였다.
-    이름을 `cin`으로 받았더니, 개행문자가 버퍼에 남아서
-    엔터입력받는 구간에서 사용자에게 입력받지 않고도 자동으로 프로그램이 진행되었다.
-    
-    이를 해결한 것은 이름을 `getline`으로 입력받은 것이다.
-    이렇게 하면 구분자로 사용된 개행문자도 버퍼에서 빠졌다.
-    (구분자는 입력 값엔 안 들어가면서 버퍼에서는 사용됨)
-
-    엔터를 입력받아서 그 값을 저장하는 것도 어려웠다.
-    `cin`도 안되고,
-    `getline`도 안되고,
-    그래서
-    `int enter = getchar()`을 사용하였다.
-    getchar() 매커니즘: 입력값을 버퍼에 넣고 한 문자만 리턴, 이 때 '\n'도 리턴한다.
-        (예1) a 엔터 하면, a 리턴, 엔터는 버퍼에 남아있다가 나중에 문제일으킴
-        (예2) 엔터 하면, 엔터 리턴 ← 내가 선택
+   #ifndef를 사용하지만 그래도,  
+   이 소스는 어떤 헤더파일만 넣어주면 될지 고민을 좀 했다.  
+   캡슐화의 원칙을 최대한 지키려니  
+   클래스가 많은 상황에서 Public VS Private 를 의식하는 것도  
+   신경이 많이 쓰이고 복잡복잡
