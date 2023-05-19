@@ -2,36 +2,31 @@
 > **블로그 주소** : https://blog.naver.com/hh-383/223069314385
 > 
 > **출판사 주소** : [생능출판사](https://www.booksr.co.kr/product/%eb%aa%85%ed%92%88-c-programming%ea%b0%9c%ec%a0%95%ed%8c%90/)
-
-
+  
+---
+    
 ## 연습문제 정보
 * **Open Challenge** : p.411
 * **이론 문제** : 총 16문제
 * **이론 문제 답안 제공** : 홀수번째 문제
 * **실습 문제** : 총 9문제
 * **실습 문제 답안 제공** : 1, 3, 5, 7번
-
-
+  
+---
+  
 ## 파일 구성
 * 📁 `8장 예제` 　∋ 📄예제코드와 그림자료코드 (출판사 제공)
 * 📁 `8장 이론문제` 　∋ 🖼️홀수번호 솔루션(출판사제공), 내 풀이
 * 📁 `8장 실습문제` 　∋ 📄일부문제 솔루션(출판사제공), 내 풀이코드
-
+  
 ---
-
-## 🖼️ 8장 이론문제 솔루션(출판사제공)
-| <img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/08%EC%9E%A5%20%EC%83%81%EC%86%8D/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5.jpg"  width="60%" height="60%"> |  |  |
+  
+## 🖼️ 8장 이론문제 솔루션(출판사제공)과 8장 개인풀이 (2).jpg
+| <img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/08%EC%9E%A5%20%EC%83%81%EC%86%8D/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5.jpg"  width="60%" height="60%"> | <img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/08%EC%9E%A5%20%EC%83%81%EC%86%8D/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/8%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(1).jpg"  width="80%" height="80%">  | <img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/08%EC%9E%A5%20%EC%83%81%EC%86%8D/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/8%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(2).jpg"  width="80%" height="80%"> |
 | --  | -- | -- |
-
-
-## 🖼️ 8장 개인풀이 (2).jpg
->체크타임부터 이론문제까지 내가 풀고 채점한 노트
-
-| <img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/08%EC%9E%A5%20%EC%83%81%EC%86%8D/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/8%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(1).jpg"  width="80%" height="80%">  | <img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/08%EC%9E%A5%20%EC%83%81%EC%86%8D/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/8%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(2).jpg"  width="80%" height="80%"> |  |
-| -- | -- | -- |
-
+  
 ---
-
+  
 ## 실습문제 리뷰
 
 > **OpenChallenge**
