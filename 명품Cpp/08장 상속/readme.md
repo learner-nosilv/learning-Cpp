@@ -22,18 +22,18 @@
 ---
   
 ## 🖼️ 8장 이론문제 솔루션(출판사제공)과 8장 개인풀이 (2).jpg
-| <img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/08%EC%9E%A5%20%EC%83%81%EC%86%8D/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5.jpg"  width="60%" height="60%"> | <img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/08%EC%9E%A5%20%EC%83%81%EC%86%8D/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/8%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(1).jpg"  width="80%" height="80%">  | <img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/08%EC%9E%A5%20%EC%83%81%EC%86%8D/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/8%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(2).jpg"  width="80%" height="80%"> |
+| <img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/08%EC%9E%A5%20%EC%83%81%EC%86%8D/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C%20%ED%99%80%EC%88%98%EB%B2%88%ED%98%B8%20%EC%A0%95%EB%8B%B5.jpg"  width="100%" height="100%"> | <img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/08%EC%9E%A5%20%EC%83%81%EC%86%8D/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/8%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(1).jpg"  width="80%" height="80%">  | <img src="https://github.com/learner-nosilv/learning-Cpp/blob/master/%EB%AA%85%ED%92%88Cpp/08%EC%9E%A5%20%EC%83%81%EC%86%8D/8%EC%9E%A5%20%EC%9D%B4%EB%A1%A0%EB%AC%B8%EC%A0%9C/8%EC%9E%A5%20%EA%B0%9C%EC%9D%B8%ED%92%80%EC%9D%B4%20(2).jpg"  width="70%" height="70%"> |
 | --  | -- | -- |
   
 ---
   
 ## 실습문제 리뷰
 
-> **OpenChallenge**
-    `어려웠던 것1`  **while 블록 안에서 객체를 생성하고 포인터를 연결하는 일**  
-    `어려웠던 것2`  **new delete**
-
-    특정 블록에서 객체를 생성하면, 그 객체는 lifecycle이 블록과 같다.  
+> **OpenChallenge**  
+   `어려웠던 것1`  **while 블록 안에서 객체를 생성하고 포인터를 연결하는 일**  
+   `어려웠던 것2`  **new delete**  
+  
+   특정 블록에서 객체를 생성하면, 그 객체는 lifecycle이 블록과 같다.  
    그래서, `객체선언;` `포인터=&객체;` 해도 블록이 종료되면 오류가 났다.  
    엄밀히 말하면, int형은 남아있었는데, string형은 다 날아갔다.  
    _(값복사, 주소복사의 원리인 것 같은데)_  
@@ -47,14 +47,15 @@
    그러니까, **for문을 통해서 동적할당 받은 부분만 해제**해줘야한다.
   
   
-> **8.**
-    `어려웠던 것1`  내 마음대로가 아닌 책의 **요구사항대로 작성하기**  
-   그리고, 내가 임의로 작성한 코드(1)와 책의 요구사항대로 작성한 코드(2) 중  
-   어떤 코드가 더 효율적인지 모르겠다.    
-    `어려웠던 것2`  **파일분리**는 항상 어렵다 + **접근범위** 를 신경쓰는 일  
+> **8.**  
+   `어려웠던 것1`  내 마음대로가 아닌 책의 **요구사항대로 작성하기**  
+   `어려웠던 것2`  **파일분리**는 항상 어렵다 + **접근범위** 를 신경쓰는 일  
+    
+   내가 임의로 작성한 코드(1)와 책의 요구사항대로 작성한 코드(2) 중  
+   어떤 코드가 더 효율적인지 모르겠다.  
   
    #ifndef를 사용하지만 그래도,  
    이 소스는 어떤 헤더파일만 넣어주면 될지 고민을 좀 했다.  
    캡슐화의 원칙을 최대한 지키려니  
    클래스가 많은 상황에서 Public VS Private 를 의식하는 것도  
-   신경이 많이 쓰이고 복잡복잡
+   신경이 많이 쓰이고 복잡복잡  
