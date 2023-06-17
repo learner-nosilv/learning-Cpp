@@ -1,5 +1,5 @@
 # 9장 가상 함수와 추상 클래스
-> **블로그 주소** : https://blog.naver.com/hh-383/223069314385
+> **블로그 주소** : https://blog.naver.com/hh-383/223131347817
 > 
 > **출판사 주소** : [생능출판사](https://www.booksr.co.kr/product/%eb%aa%85%ed%92%88-c-programming%ea%b0%9c%ec%a0%95%ed%8c%90/)
 
@@ -28,16 +28,16 @@
 ## 실습문제 리뷰
 
 **개념이 어색했다.**  
-   
+  
 Virtual, Pure Virtual Function, Abstract Class 라는 개념에 익숙해지는 시간이 필요했다.  
    
 교재에게 고마운 건,  
 * 개념이 글로 다 세세히 적혀있어서 복습하기 좋다는 점과
-* 어색한 개념이 점차 익숙해질 수 있도록 문제들이 체크타임->이론문제->실습문제들로 난이도 쉬움부터 익스트림까지 다양하게 많다는 점  
+* 어색한 개념이 점차 익숙해질 수 있도록 
+문제들이 체크타임->이론문제->실습문제들로 난이도 쉬움부터 익스트림까지 다양하게 많다는 점  
+   이다.  
    
-이다.  
   
-   
 > **OpenChallenge**
     `어려웠던 것`  **맵 디스플레이**
 
@@ -49,5 +49,5 @@ Virtual, Pure Virtual Function, Abstract Class 라는 개념에 익숙해지는 
     
 > **10.**
     `어려웠던 것`  **파일쪼개기** Main, Shape, UI, GraphicEditor로 코드를 나누는 것
-    
+   
 GraphicEditor 에 다 넣으면 되는 걸 UI 라는 클래스로 떼내려니 귀찮았다.   
