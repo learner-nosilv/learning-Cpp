@@ -3,8 +3,8 @@
 using namespace std;
 
 int main() {
-	const char* firstFile = "c:\\temp\\student.txt";
-	const char* secondFile = "c:\\windows\\system.ini";
+	const char* firstFile = "C:\Users\renee\source\repos\learning-Cpp\명품Cpp\백준\student.txt";
+	const char* secondFile = "C:\Users\renee\source\repos\learning-Cpp\명품Cpp\백준\system.ini";
 
 	fstream fout(firstFile, ios::out | ios::app); // 쓰기 모드로 파일 열기
 	if(!fout) { // 열기 실패 검사
